@@ -15,7 +15,7 @@ using System.Windows.Shapes;
 
 namespace WpfBrowserApp1
 {
-	/// Hello, this is a change
+	//// This comment is just for the new branch
     /// <summary>
     /// Interaction logic for Page1.xaml
     /// </summary>
