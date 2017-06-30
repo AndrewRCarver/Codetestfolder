@@ -1,0 +1,17 @@
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\bin\Release\WpfBrowserApp1.exe.manifest
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\bin\Release\WpfBrowserApp1.xbap
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\bin\Release\WpfBrowserApp1.exe
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\bin\Release\WpfBrowserApp1.pdb
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\Page1.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\App.g.cs
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1_MarkupCompile.cache
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1_MarkupCompile.lref
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\Page1.baml
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.g.resources
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.Properties.Resources.resources
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.csproj.GenerateResource.Cache
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.TrustInfo.xml
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.exe.manifest
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.xbap
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.exe
+C:\Users\Andrew\Documents\Visual Studio 2017\Projects\WpfBrowserApp1\WpfBrowserApp1\obj\Release\WpfBrowserApp1.pdb

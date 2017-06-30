@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WpfBrowserApp1.exe" version="1.0.0.0" publicKeyToken="845561f259407ef0" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WpfBrowserApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WpfBrowserApp1.exe" parameters="" />
+    <hostInBrowser xmlns="urn:schemas-microsoft-com:asm.v3" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="Internet" Description="Default rights given to Internet applications" ID="Custom" SameSite="site">
+          <IPermission version="1" class="System.Security.Permissions.FileDialogPermission, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Access="Open" />
+          <IPermission UserQuota="1024000" version="1" class="System.Security.Permissions.IsolatedStorageFilePermission, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Allowed="ApplicationIsolationByUser" />
+          <IPermission version="1" class="System.Security.Permissions.SecurityPermission, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Flags="Execution" />
+          <IPermission version="1" class="System.Security.Permissions.UIPermission, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" Clipboard="OwnClipboard" Window="SafeTopLevelWindows" />
+          <IPermission version="1" class="System.Drawing.Printing.PrintingPermission, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" Level="SafePrinting" />
+          <IPermission version="1" class="System.Security.Permissions.MediaPermission, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Audio="SafeAudio" Image="SafeImage" Video="SafeVideo" />
+          <IPermission version="1" class="System.Security.Permissions.WebBrowserPermission, WindowsBase, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" Level="Safe" />
+        </PermissionSet>
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WpfBrowserApp1.exe" size="10632">
+      <assemblyIdentity name="WpfBrowserApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>XrTuWoKyIZIzQLe8WC+zwT9BCTvbqwVJhbquHfUrGpQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=ACAR2\Andrew" issuerKeyHash="cf02261eb9ffdc6b993373b721513cc55edb5318" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>YrTlGpyK08sTFaOpfzcD2bdjq50=</DigestValue></Reference></SignedInfo><SignatureValue>E5jh1WWOO+yjdKap6xV5N3sMrkLdr27bSwFQeUP1Ls/ttRV4w3ubzX7uWvQGkku8hCluiRr4b9PGb1lXmIMz+jaBBxIIFCAyqJj42qEwbZ58l7QYAhPXCNtz6srMvohZJjedEtRtIinjR6dkS/NOu8D3opl66H2SpGWMJ3+Oth8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>jqMGF7yJWuJQuHWdyturOsxcg916xovG+TIW6eLQqwQhYJwVb+2fP6ISKsDi5lNHSG4uZZD+04kQ3qRpKA8hzfwnnLNYQ3ybJ1KsrcLEgybal58ukYGWaZVpQGm+F+1LHXAfMqD142Ze4R3oNMV3ggECnDqD+Gn2vFcGC7z9q9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9dab63b7d903377fa9a31513cbd38a9c1ae5b462" Description="" Url=""><as:assemblyIdentity name="WpfBrowserApp1.exe" version="1.0.0.0" publicKeyToken="845561f259407ef0" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ACAR2\Andrew</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>RdSTRYcaec39Afd9ev19gcQoYh0=</DigestValue></Reference></SignedInfo><SignatureValue>OP9dJcY1DNROGWnF1qSBlHsUiMrRp6+hYzH7BOGGs/1MxwaJPIpMLSH+HXudNn4fk6aK+N1w9RdQMOjvqu9CNaL0TTT60dN8h+nByHUiPrbJ7s91AzqS6Usr4aKFnWi5ZkpLvRt9bFbeyv337PRJzuQyvLvTxUhViTtEvSu8M+8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>jqMGF7yJWuJQuHWdyturOsxcg916xovG+TIW6eLQqwQhYJwVb+2fP6ISKsDi5lNHSG4uZZD+04kQ3qRpKA8hzfwnnLNYQ3ybJ1KsrcLEgybal58ukYGWaZVpQGm+F+1LHXAfMqD142Ze4R3oNMV3ggECnDqD+Gn2vFcGC7z9q9E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQF3sj50VlsYdF3WnOfJqQvTANBgkqhkiG9w0BAQUFADAjMSEwHwYDVQQDHhgAQQBDAEEAUgAyAFwAQQBuAGQAcgBlAHcwHhcNMTcwNDA3MTU1ODA0WhcNMTgwNDA3MjE1ODA0WjAjMSEwHwYDVQQDHhgAQQBDAEEAUgAyAFwAQQBuAGQAcgBlAHcwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAI6jBhe8iVriULh1ncrbqzrMXIPdesaLxvkyFuni0KsEIWCcFW/tnz+iEirA4uZTR0huLmWQ/tOJEN6kaSgPIc38J5yzWEN8mydSrK3CxIMm2pefLpGBlmmVaUBpvhftSx1wHzKg9eNmXuEd6DTFd4IBApw6g/hp9rxXBgu8/avRAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAcsZ7P5fzIHBHckyJNcMm+VndReh9bkpfis6riUweFNfqDLIxu9Lv5U/d8UU3N1rR49/u+SJDUsWTokn8S9yG+olD08xNY4wDYNJ3edsEMjazzuyBc8Zz5E5c35DFjkMOXRLtvAK5W6qggy+kqcpVa7SY4nC7iqTYrBLStIK5Nxw=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
